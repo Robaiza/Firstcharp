@@ -1,0 +1,66 @@
+C:\Users\kikeados\source\repos\TabLenguajesProgra\bin\Debug\net6.0-windows\TabLenguajesProgra.exe
+C:\Users\kikeados\source\repos\TabLenguajesProgra\bin\Debug\net6.0-windows\TabLenguajesProgra.deps.json
+C:\Users\kikeados\source\repos\TabLenguajesProgra\bin\Debug\net6.0-windows\TabLenguajesProgra.runtimeconfig.json
+C:\Users\kikeados\source\repos\TabLenguajesProgra\bin\Debug\net6.0-windows\TabLenguajesProgra.dll
+C:\Users\kikeados\source\repos\TabLenguajesProgra\bin\Debug\net6.0-windows\TabLenguajesProgra.pdb
+C:\Users\kikeados\source\repos\TabLenguajesProgra\obj\Debug\net6.0-windows\TabLenguajesProgra.csproj.AssemblyReference.cache
+C:\Users\kikeados\source\repos\TabLenguajesProgra\obj\Debug\net6.0-windows\App.g.cs
+C:\Users\kikeados\source\repos\TabLenguajesProgra\obj\Debug\net6.0-windows\TabLenguajesProgra_MarkupCompile.cache
+C:\Users\kikeados\source\repos\TabLenguajesProgra\obj\Debug\net6.0-windows\TabLenguajesProgra_MarkupCompile.lref
+C:\Users\kikeados\source\repos\TabLenguajesProgra\obj\Debug\net6.0-windows\TabLenguajesProgra.g.resources
+C:\Users\kikeados\source\repos\TabLenguajesProgra\obj\Debug\net6.0-windows\TabLenguajesProgra.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\kikeados\source\repos\TabLenguajesProgra\obj\Debug\net6.0-windows\TabLenguajesProgra.AssemblyInfoInputs.cache
+C:\Users\kikeados\source\repos\TabLenguajesProgra\obj\Debug\net6.0-windows\TabLenguajesProgra.AssemblyInfo.cs
+C:\Users\kikeados\source\repos\TabLenguajesProgra\obj\Debug\net6.0-windows\TabLenguajesProgra.csproj.CoreCompileInputs.cache
+C:\Users\kikeados\source\repos\TabLenguajesProgra\obj\Debug\net6.0-windows\TabLenguajesProgra.dll
+C:\Users\kikeados\source\repos\TabLenguajesProgra\obj\Debug\net6.0-windows\refint\TabLenguajesProgra.dll
+C:\Users\kikeados\source\repos\TabLenguajesProgra\obj\Debug\net6.0-windows\TabLenguajesProgra.pdb
+C:\Users\kikeados\source\repos\TabLenguajesProgra\obj\Debug\net6.0-windows\TabLenguajesProgra.genruntimeconfig.cache
+C:\Users\kikeados\source\repos\TabLenguajesProgra\obj\Debug\net6.0-windows\ref\TabLenguajesProgra.dll
+C:\Users\kikeados\source\repos\TabLenguajesProgra\bin\Debug\net6.0-windows\LiveCharts.dll
+C:\Users\kikeados\source\repos\TabLenguajesProgra\bin\Debug\net6.0-windows\LiveCharts.Wpf.dll
+C:\Users\kikeados\source\repos\TabLenguajesProgra\obj\Debug\net6.0-windows\TabLenguajesProgra.csproj.CopyComplete
+C:\Users\kikeados\source\repos\TabLenguajesProgra\bin\Debug\net6.0-windows\MaterialDesignColors.dll
+C:\Users\kikeados\source\repos\TabLenguajesProgra\bin\Debug\net6.0-windows\MaterialDesignThemes.Wpf.dll
+C:\Users\kikeados\source\repos\TabLenguajesProgra\obj\Debug\net6.0-windows\MainWindow.g.cs
+C:\Users\kikeados\source\repos\TabLenguajesProgra\obj\Debug\net6.0-windows\MainWindow.baml
+C:\Users\kikeados\source\repos\TabLenguajesProgra\obj\Debug\net6.0-windows\Pantallas\ProgramasEntretenimiento.g.cs
+C:\Users\kikeados\source\repos\TabLenguajesProgra\obj\Debug\net6.0-windows\Pantallas\ProgramasEntretenimiento.baml
+C:\Users\kikeados\source\repos\TabLenguajesProgra\obj\Debug\net6.0-windows\Pantallas\LenguajesProgramacion.g.cs
+C:\Users\kikeados\source\repos\TabLenguajesProgra\obj\Debug\net6.0-windows\Pantallas\LenguajesProgramacion.baml
+C:\Users\kikeados\source\repos\TabLenguajesProgra\obj\Debug\net6.0-windows\Pantallas\Libros.g.cs
+C:\Users\kikeados\source\repos\TabLenguajesProgra\obj\Debug\net6.0-windows\Pantallas\Libros.baml
+E:\Ciclo II UDB\Desarrollo de Aplicaciones con Software Propietario\TabLenguajesProgra_final\TabLenguajesProgra\obj\Debug\net6.0-windows\TabLenguajesProgra.csproj.AssemblyReference.cache
+E:\Ciclo II UDB\Desarrollo de Aplicaciones con Software Propietario\TabLenguajesProgra_final\TabLenguajesProgra\obj\Debug\net6.0-windows\MainWindow.g.cs
+E:\Ciclo II UDB\Desarrollo de Aplicaciones con Software Propietario\TabLenguajesProgra_final\TabLenguajesProgra\obj\Debug\net6.0-windows\Pantallas\LenguajesProgramacion.g.cs
+E:\Ciclo II UDB\Desarrollo de Aplicaciones con Software Propietario\TabLenguajesProgra_final\TabLenguajesProgra\obj\Debug\net6.0-windows\Pantallas\Libros.g.cs
+E:\Ciclo II UDB\Desarrollo de Aplicaciones con Software Propietario\TabLenguajesProgra_final\TabLenguajesProgra\obj\Debug\net6.0-windows\Pantallas\ProgramasEntretenimiento.g.cs
+E:\Ciclo II UDB\Desarrollo de Aplicaciones con Software Propietario\TabLenguajesProgra_final\TabLenguajesProgra\obj\Debug\net6.0-windows\App.g.cs
+E:\Ciclo II UDB\Desarrollo de Aplicaciones con Software Propietario\TabLenguajesProgra_final\TabLenguajesProgra\obj\Debug\net6.0-windows\TabLenguajesProgra_MarkupCompile.cache
+E:\Ciclo II UDB\Desarrollo de Aplicaciones con Software Propietario\TabLenguajesProgra_final\TabLenguajesProgra\obj\Debug\net6.0-windows\TabLenguajesProgra_MarkupCompile.lref
+E:\Ciclo II UDB\Desarrollo de Aplicaciones con Software Propietario\TabLenguajesProgra_final\TabLenguajesProgra\obj\Debug\net6.0-windows\TabLenguajesProgra.dll
+E:\Ciclo II UDB\Desarrollo de Aplicaciones con Software Propietario\TabLenguajesProgra_final\TabLenguajesProgra\obj\Debug\net6.0-windows\refint\TabLenguajesProgra.dll
+E:\Ciclo II UDB\Desarrollo de Aplicaciones con Software Propietario\TabLenguajesProgra_final\TabLenguajesProgra\obj\Debug\net6.0-windows\TabLenguajesProgra.pdb
+E:\Ciclo II UDB\Desarrollo de Aplicaciones con Software Propietario\TabLenguajesProgra_final\TabLenguajesProgra\bin\Debug\net6.0-windows\TabLenguajesProgra.exe
+E:\Ciclo II UDB\Desarrollo de Aplicaciones con Software Propietario\TabLenguajesProgra_final\TabLenguajesProgra\bin\Debug\net6.0-windows\TabLenguajesProgra.deps.json
+E:\Ciclo II UDB\Desarrollo de Aplicaciones con Software Propietario\TabLenguajesProgra_final\TabLenguajesProgra\bin\Debug\net6.0-windows\TabLenguajesProgra.runtimeconfig.json
+E:\Ciclo II UDB\Desarrollo de Aplicaciones con Software Propietario\TabLenguajesProgra_final\TabLenguajesProgra\bin\Debug\net6.0-windows\TabLenguajesProgra.dll
+E:\Ciclo II UDB\Desarrollo de Aplicaciones con Software Propietario\TabLenguajesProgra_final\TabLenguajesProgra\bin\Debug\net6.0-windows\TabLenguajesProgra.pdb
+E:\Ciclo II UDB\Desarrollo de Aplicaciones con Software Propietario\TabLenguajesProgra_final\TabLenguajesProgra\bin\Debug\net6.0-windows\LiveCharts.dll
+E:\Ciclo II UDB\Desarrollo de Aplicaciones con Software Propietario\TabLenguajesProgra_final\TabLenguajesProgra\bin\Debug\net6.0-windows\LiveCharts.Wpf.dll
+E:\Ciclo II UDB\Desarrollo de Aplicaciones con Software Propietario\TabLenguajesProgra_final\TabLenguajesProgra\bin\Debug\net6.0-windows\MaterialDesignColors.dll
+E:\Ciclo II UDB\Desarrollo de Aplicaciones con Software Propietario\TabLenguajesProgra_final\TabLenguajesProgra\bin\Debug\net6.0-windows\MaterialDesignThemes.Wpf.dll
+E:\Ciclo II UDB\Desarrollo de Aplicaciones con Software Propietario\TabLenguajesProgra_final\TabLenguajesProgra\obj\Debug\net6.0-windows\MainWindow.baml
+E:\Ciclo II UDB\Desarrollo de Aplicaciones con Software Propietario\TabLenguajesProgra_final\TabLenguajesProgra\obj\Debug\net6.0-windows\Pantallas\LenguajesProgramacion.baml
+E:\Ciclo II UDB\Desarrollo de Aplicaciones con Software Propietario\TabLenguajesProgra_final\TabLenguajesProgra\obj\Debug\net6.0-windows\Pantallas\Libros.baml
+E:\Ciclo II UDB\Desarrollo de Aplicaciones con Software Propietario\TabLenguajesProgra_final\TabLenguajesProgra\obj\Debug\net6.0-windows\Pantallas\ProgramasEntretenimiento.baml
+E:\Ciclo II UDB\Desarrollo de Aplicaciones con Software Propietario\TabLenguajesProgra_final\TabLenguajesProgra\obj\Debug\net6.0-windows\TabLenguajesProgra.g.resources
+E:\Ciclo II UDB\Desarrollo de Aplicaciones con Software Propietario\TabLenguajesProgra_final\TabLenguajesProgra\obj\Debug\net6.0-windows\TabLenguajesProgra.GeneratedMSBuildEditorConfig.editorconfig
+E:\Ciclo II UDB\Desarrollo de Aplicaciones con Software Propietario\TabLenguajesProgra_final\TabLenguajesProgra\obj\Debug\net6.0-windows\TabLenguajesProgra.AssemblyInfoInputs.cache
+E:\Ciclo II UDB\Desarrollo de Aplicaciones con Software Propietario\TabLenguajesProgra_final\TabLenguajesProgra\obj\Debug\net6.0-windows\TabLenguajesProgra.AssemblyInfo.cs
+E:\Ciclo II UDB\Desarrollo de Aplicaciones con Software Propietario\TabLenguajesProgra_final\TabLenguajesProgra\obj\Debug\net6.0-windows\TabLenguajesProgra.csproj.CoreCompileInputs.cache
+E:\Ciclo II UDB\Desarrollo de Aplicaciones con Software Propietario\TabLenguajesProgra_final\TabLenguajesProgra\obj\Debug\net6.0-windows\TabLenguajesProgra.csproj.CopyComplete
+E:\Ciclo II UDB\Desarrollo de Aplicaciones con Software Propietario\TabLenguajesProgra_final\TabLenguajesProgra\obj\Debug\net6.0-windows\TabLenguajesProgra.genruntimeconfig.cache
+E:\Ciclo II UDB\Desarrollo de Aplicaciones con Software Propietario\TabLenguajesProgra_final\TabLenguajesProgra\obj\Debug\net6.0-windows\ref\TabLenguajesProgra.dll
+E:\Ciclo II UDB\Desarrollo de Aplicaciones con Software Propietario\TabLenguajesProgra_final\TabLenguajesProgra\obj\Debug\net6.0-windows\Pantallas\Page1.g.cs
+E:\Ciclo II UDB\Desarrollo de Aplicaciones con Software Propietario\TabLenguajesProgra_final\TabLenguajesProgra\obj\Debug\net6.0-windows\Pantallas\Page1.baml

@@ -1,0 +1,34 @@
+{
+  "version": 2,
+  "dgSpecHash": "GqxwaGpp9kxqehYKHQupc80NQqOA3lxjB0MhL6wfSq8r4ZH34dA1Bz6kR6TMlAt0o4cOj0VAM0PieGCWq2phng==",
+  "success": true,
+  "projectFilePath": "E:\\Ciclo II UDB\\Desarrollo de Aplicaciones con Software Propietario\\TabLenguajesProgra_final\\TabLenguajesProgra\\TabLenguajesProgra.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\bobpa\\.nuget\\packages\\livecharts\\0.9.7\\livecharts.0.9.7.nupkg.sha512",
+    "C:\\Users\\bobpa\\.nuget\\packages\\livecharts.wpf\\0.9.7\\livecharts.wpf.0.9.7.nupkg.sha512",
+    "C:\\Users\\bobpa\\.nuget\\packages\\materialdesigncolors\\2.0.7\\materialdesigncolors.2.0.7.nupkg.sha512",
+    "C:\\Users\\bobpa\\.nuget\\packages\\materialdesignthemes\\4.6.0\\materialdesignthemes.4.6.0.nupkg.sha512"
+  ],
+  "logs": [
+    {
+      "code": "NU1701",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Package 'LiveCharts 0.9.7' was restored using '.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8, .NETFramework,Version=v4.8.1' instead of the project target framework 'net6.0-windows7.0'. This package may not be fully compatible with your project.",
+      "libraryId": "LiveCharts",
+      "targetGraphs": [
+        "net6.0-windows7.0"
+      ]
+    },
+    {
+      "code": "NU1701",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Package 'LiveCharts.Wpf 0.9.7' was restored using '.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8, .NETFramework,Version=v4.8.1' instead of the project target framework 'net6.0-windows7.0'. This package may not be fully compatible with your project.",
+      "libraryId": "LiveCharts.Wpf",
+      "targetGraphs": [
+        "net6.0-windows7.0"
+      ]
+    }
+  ]
+}

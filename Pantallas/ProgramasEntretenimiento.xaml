@@ -1,0 +1,216 @@
+﻿<Page x:Class="TabLenguajesProgra.Pantallas.ProgramasEntretenimiento"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+      xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+      xmlns:local="clr-namespace:TabLenguajesProgra.Pantallas"
+      xmlns:Wpf="clr-namespace:LiveCharts.Wpf;assembly=LiveCharts.Wpf"
+      mc:Ignorable="d" 
+      d:DesignHeight="550" d:DesignWidth="800"
+      Title="ProgramasEntretenimiento"
+      FontFamily="Poppins">
+
+    <Page.Resources>
+        <!-- Color -->
+        <SolidColorBrush x:Key="PrimaryBlueColor" Color="#348EF6"/>
+        <SolidColorBrush x:Key="SecundaryBlueColor" Color="#EFF2FF"/>
+
+        <SolidColorBrush x:Key="PrimaryTextColor" Color="#FFFFFF"/>
+        <SolidColorBrush x:Key="SecundaryTextColor" Color="#BBC1D1"/>
+
+        <SolidColorBrush x:Key="PrimaryGrayColor" Color="#BBC1D1"/>
+
+
+        <Style x:Key = "TabItemStyle" TargetType = "TabItem">
+            <Setter Property = "Background" Value = "Transparent"/>
+            <Setter Property = "Foreground" Value = "{DynamicResource SecundaryTextColor}"/>
+            <Setter Property="BorderThickness" Value="0"/>
+            <Setter Property="BorderBrush" Value="Transparent"/>
+            <Setter Property="Margin" Value="0 0 5 0"/>
+            <Setter Property="Width" Value="100"/>
+            <Setter Property="Padding" Value="10 05"/>
+            <Setter Property="FontWeight" Value="500"/>
+            <Setter Property="VerticalAlignment" Value="Top"/>
+            <Setter Property="HorizontalAlignment" Value="Left"/>
+
+            <Setter Property="Template">
+                <Setter.Value>
+                    <ControlTemplate TargetType="TabItem">
+                        <Grid SnapsToDevicePixels="True">
+                            <Border CornerRadius="5"
+                                    Background="{TemplateBinding Background}"
+                                    BorderThickness="{TemplateBinding BorderThickness}"
+                                    BorderBrush="{TemplateBinding BorderBrush}"
+                                    Margin="{TemplateBinding Margin}"/>
+                            <ContentPresenter HorizontalAlignment="Center"
+                                              VerticalAlignment="Center"
+                                              SnapsToDevicePixels="True"
+                                              RecognizesAccessKey="True"
+                                              Margin="{TemplateBinding Padding}"
+                                              ContentSource="Header"
+                                              Focusable="False"/>
+                        </Grid>
+                        <ControlTemplate.Triggers>
+                            <Trigger Property="IsMouseOver" Value="True">
+                                <Setter Property="Background"
+                                        Value="{DynamicResource SecundaryBlueColor}"/>
+                                <Setter Property="Foreground"
+                                        Value="{DynamicResource PrimaryGrayColor}"/>
+                            </Trigger>
+                            <Trigger Property="IsSelected" Value="True">
+                                <Setter Property="Background"
+                                        Value="{DynamicResource PrimaryBlueColor}"/>
+                                <Setter Property="Foreground"
+                                        Value="{DynamicResource PrimaryTextColor}"/>
+                            </Trigger>
+                        </ControlTemplate.Triggers>
+                    </ControlTemplate>
+                </Setter.Value>
+            </Setter>
+        </Style>
+
+        <Style x:Key="TabControlStyle" TargetType="TabControl">
+
+            <Setter Property="Background" Value="{DynamicResource SecundaryBlueColor}"/>
+            <Setter Property="BorderThickness" Value="0"/>
+            <Setter Property="BorderBrush" Value="Transparent"/>
+            <Setter Property="Padding" Value="5"/>
+            <Setter Property="VerticalAlignment" Value="Center"/>
+            <Setter Property="HorizontalAlignment" Value="Center"/>
+            <Setter Property="Template">
+                <Setter.Value>
+                    <ControlTemplate TargetType="TabControl">
+                        <Grid SnapsToDevicePixels="True">
+                            <Grid.RowDefinitions>
+                                <RowDefinition Height="50"/>
+                                <RowDefinition Height="*"/>
+                            </Grid.RowDefinitions>
+                            <TabPanel Grid.Row="0"
+                                      Background="Transparent"
+                                      IsItemsHost="True"
+                                      HorizontalAlignment="Center"/>
+                            <Border Grid.Row="1"
+                                    CornerRadius="5"
+                                    BorderThickness="{TemplateBinding BorderThickness}"
+                                    BorderBrush="{TemplateBinding BorderBrush}"
+                                    Background="{TemplateBinding Background}">
+                                <ContentPresenter ContentSource="SelectedContent"
+                                                  SnapsToDevicePixels="True"
+                                                  Margin="{TemplateBinding Padding}"/>
+                            </Border>
+                        </Grid>
+                    </ControlTemplate>
+                </Setter.Value>
+            </Setter>
+        </Style>
+
+    </Page.Resources>
+
+    <StackPanel>
+
+        <Grid>
+            <Border CornerRadius="10"
+                
+                Padding="30"
+                VerticalAlignment="Center"
+                HorizontalAlignment="Center" Width="800" Height="550">
+
+                <Border.Background>
+                    <ImageBrush ImageSource="/Pantallas/back-image.jpg"
+                            Stretch="None"/>
+                </Border.Background>
+
+                <Border Margin="-43,-33,-30,-30" BorderThickness="2" Opacity="0.96" CornerRadius="10">
+
+                    <Border.Background>
+                        <LinearGradientBrush StartPoint="0,1" EndPoint="1,0">
+                            <GradientStop Color="#060531" Offset="0"/>
+                            <GradientStop Color="#1B1448" Offset="1"/>
+                        </LinearGradientBrush>
+                    </Border.Background>
+
+
+
+                    <TabControl Width="600" Height="450" Style="{DynamicResource TabControlStyle}">
+                        <TabItem Header="THRONES" Style="{DynamicResource TabItemStyle}">
+                            <Grid>
+                                <TextBlock Text="GAME OF THRONES"
+                               Foreground="{DynamicResource PrimaryBlueColor}"
+                               FontSize="22"
+                               FontWeight="Bold"
+                               VerticalAlignment="Top"
+                               HorizontalAlignment="Left" Margin="34,10,0,0"/>
+                                <TextBlock
+                            Width="522" VerticalAlignment="Top" Margin="0,56,0,0" Height="324" HorizontalAlignment="Center" FontSize="12" FontWeight="Bold" Foreground="{DynamicResource PrimaryBlueColor}"><Run Text="Titulo en español: Juego de tronos."/><LineBreak/><Run/><LineBreak/><Run Text="Creado por: David Benioff, D. B. Weiss"/><LineBreak/><Run/><LineBreak/><Run Text="Protagonistas: Sean Bean, Nikolaj Coster-Waldun, Peter Dinklage, Emilia Clarke, "/><LineBreak/><Run Text="Lena Headey, Iain Glen, Kit Harington, Sophie, Turner,"/><LineBreak/><Run Text="Maisie Williams, Isaac Hempstead-Wright, Natalie Dormer."/><LineBreak/><Run/><LineBreak/><Run Text="Pais de origen: Estados Unidos."/><LineBreak/><Run/><LineBreak/><Run Text="Temporadas: 8"/><LineBreak/><Run/><LineBreak/><Run Text="Episodios: 73"/><LineBreak/><Run/><LineBreak/><Run Text="Sinopsis: La trama de Game of Thrones está basada en la serie de novelas Canción "/><LineBreak/><Run Text="de hielo y fuego, y relata las vivencias de un grupo de personajes de distintas "/><LineBreak/><Run Text="casas nobiliarias en el continente ficticio Poniente para tener el control del Trono de"/><LineBreak/><Run Text="Hierro y gobernar los siete"/><LineBreak/><Run Text="reinos que conforman el"/><LineBreak/><Run Text="territorio"/><LineBreak/><Run/><LineBreak/><Run/></TextBlock>
+                            </Grid>
+                        </TabItem>
+
+                        <TabItem Header="CHERNOBYL" Style="{DynamicResource TabItemStyle}">
+                            <Grid>
+                                <TextBlock Text="CHERNOBYL"
+                               Foreground="{DynamicResource PrimaryBlueColor}"
+                               FontSize="22"
+                               FontWeight="Bold"
+                               VerticalAlignment="Top"
+                               HorizontalAlignment="Left" Margin="34,10,0,0"/>
+                                <TextBlock
+                            Foreground="{DynamicResource PrimaryBlueColor}"
+                            FontSize="16"
+                            FontWeight="Bold"
+                            VerticalAlignment="Top"
+                            HorizontalAlignment="Center" Margin="0,56,0,0" Width="522" Height="324"><Run Text="Desarr"/><Run Text="ollador"/><Run Text=": James Gosling y Sun Microsystems."/><LineBreak/><Run/><LineBreak/><Run Text="Extensiones: java, class, jar, jad y jmod"/><LineBreak/><Run/><LineBreak/><Run Text="Apareció en: 1996"/><LineBreak/><Run/><LineBreak/><Run Text="Sistema operativo: Multiplataforma."/><LineBreak/><Run/><LineBreak/><Run Text="Paradigma: Multiparadigma: orientado a objetos, imperativo, funcional, reflexivo."/><LineBreak/><Run/><LineBreak/><Run Text="Paradigma: Orientado a objetos, imperativo."/><LineBreak/><Run/><LineBreak/><Run Text="Ultima versión estable: 14.01"/><LineBreak/><Run/><LineBreak/><Run Text="Licencia: GNU GPL / Java Community Process"/><LineBreak/><Run/></TextBlock>
+                            </Grid>
+                        </TabItem>
+
+                        <TabItem Header="THE MARVELOUS" Style="{DynamicResource TabItemStyle}">
+                            <Grid>
+                                <TextBlock Text="THE MARVELOUS MRS.MAISEL"
+                               Foreground="{DynamicResource PrimaryBlueColor}"
+                               FontSize="22"
+                               FontWeight="Bold"
+                               VerticalAlignment="Top"
+                               HorizontalAlignment="Left" Margin="34,10,0,0"/>
+                                <TextBlock
+                            Foreground="{DynamicResource PrimaryBlueColor}"
+                            FontSize="16"
+                            FontWeight="Bold"
+                            VerticalAlignment="Top"
+                            HorizontalAlignment="Center" Margin="0,56,0,0" Width="522" Height="324"><Run Text="Desarr"/><Run Text="ol: xx"/><LineBreak/><Run/><LineBreak/><Run Text="Extensiones: .js"/><LineBreak/><Run/><LineBreak/><Run Text="Apareció en: 1995"/><LineBreak/><Run/><LineBreak/><Run Text="Sistema operativo: xx"/><LineBreak/><Run/><LineBreak/><Run Text="Paradigma: Multiparadigma: orientado a objetos, imperativo, funcional, reflexivo."/><LineBreak/><Run/><LineBreak/><Run Text="Paradigma: Multi[aradigma, programacion funcional, programacion"/><LineBreak/><Run Text="basada en prototipos, imperativo, interpretado."/><LineBreak/><Run/><LineBreak/><Run Text="Ultima versión estable: ECMAScript2016"/><LineBreak/><Run/><LineBreak/><Run Text="Licencia: xx"/><LineBreak/><Run/></TextBlock>
+                            </Grid>
+                        </TabItem>
+
+                        <TabItem Header="GRAFICA" Style="{DynamicResource TabItemStyle}">
+                            <Grid>
+                                <TextBlock Text="GRAFICA"
+                               Foreground="{DynamicResource PrimaryBlueColor}"
+                               FontSize="22"
+                               FontWeight="Bold"
+                               VerticalAlignment="Top"
+                               HorizontalAlignment="Left" Margin="34,10,0,0"/>
+                                <Wpf:PieChart LegendLocation="Bottom" Hoverable="False" Margin="0,10,0,61" DataClick="PieChart_DataClick" Foreground="{DynamicResource PrimaryBlueColor}">
+                                    <Wpf:PieChart.Series>
+                                        <Wpf:PieSeries Title="GAME OF THRONES" Values="40" DataLabels="true" LabelPoint="{Binding PointLabel}">
+
+                                        </Wpf:PieSeries>
+
+                                        <Wpf:PieSeries Title="CHERNOBYL" Values="34" DataLabels="true" LabelPoint="{Binding PointLabel}">
+
+                                        </Wpf:PieSeries>
+
+                                        <Wpf:PieSeries Title="THE MARVELEOUS MRS.MAISEL" Values="26" DataLabels="true" LabelPoint="{Binding PointLabel}">
+
+                                        </Wpf:PieSeries>
+                                    </Wpf:PieChart.Series>
+
+                                </Wpf:PieChart>
+
+                            </Grid>
+
+
+                        </TabItem>
+                    </TabControl>
+                </Border>
+            </Border>
+        </Grid>
+    </StackPanel>
+</Page>

@@ -1,0 +1,27 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net6.0-windows</TargetFramework>
+    <Nullable>enable</Nullable>
+    <UseWPF>true</UseWPF>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="Pantallas\back-image.jpg" />
+    <None Remove="Pantallas\logo.png" />
+    <None Remove="Pantallas\logoudb.png" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="LiveCharts.Wpf" Version="0.9.7" />
+    <PackageReference Include="MaterialDesignThemes" Version="4.6.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Resource Include="Pantallas\back-image.jpg" />
+    <Resource Include="Pantallas\logo.png" />
+    <Resource Include="Pantallas\logoudb.png" />
+  </ItemGroup>
+
+</Project>

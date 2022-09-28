@@ -1,0 +1,10 @@
+{
+  "profiles": {
+    "TabLenguajesProgra": {
+      "commandName": "Project"
+    },
+    "Perfil 1": {
+      "commandName": "Executable"
+    }
+  }
+}
